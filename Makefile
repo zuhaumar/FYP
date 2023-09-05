@@ -4,4 +4,4 @@ install:
 lint:
 	pylint --disable=C,R calc.py
 test:
-	python -m pytest -vv --cov=calc test.py
+	python -m pytest -vv test.py
