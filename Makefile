@@ -4,4 +4,4 @@ install:
 lint:
 	pylint --disable=C,R hello.py
 test:
-	python -m pytest -vv --cov=hello test.py
+	python -m pytest -vv --cov=calc test.py
