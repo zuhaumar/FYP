@@ -3,6 +3,8 @@
 
 name: Python application
 on:
+  pull:
+    branches: [ "20i0579" ]
   push:
     branches: [ "20i0579" ]
   
