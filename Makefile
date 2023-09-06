@@ -1,6 +1,6 @@
 install:
-	pip install --upgrade pip&\
-	pip install -r requirements.txt
+	make install --upgrade pip &\
+	make install -r requirements.txt
 lint:
 	pylint --disable=C,R hello.py
 	pylint --disable=C,R main.py
@@ -8,5 +8,4 @@ lint:
 test:
 	python -m pytest -vv  test_hello.py
 	python -m pytest -vv  test_main.py
-	
 	python -m pytest -vv test.py
