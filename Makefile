@@ -1,6 +1,6 @@
 install:
-	make install --upgrade pip &\
-	make install -r requirements.txt
+	pip install --upgrade pip &\
+	pip install -r requirements.txt
 lint:
 	pylint --disable=C,R calc.py
 test:
