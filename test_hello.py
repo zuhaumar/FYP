@@ -1,3 +1,3 @@
-from hello import add
-def test_add():
-    assert 2==add(1,3)
+from hello import subtract
+def test_subtract():
+    assert 2==subtract(5,3)
