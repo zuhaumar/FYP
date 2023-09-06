@@ -1,7 +1,9 @@
 install:
-	pip install --upgrade pip &\
+
+	pip install --upgrade pip&\
 	pip install -r requirements.txt
 lint:
-	pylint --disable=C,R calc.py
+	pylint --disable=C,R hello.py
 test:
-	python -m pytest -vv test.py
+	python -m pytest -vv --cov=hello test_hello.py
+
